@@ -92,7 +92,7 @@ export default function TodoApp() {
   }, [setTodos, todos]);
 
   return (
-    <div className="min-h-screen bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
+    <div className="min-h-screen bg-white text-zinc-900">
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-10 sm:px-6">
         <header className="flex flex-col gap-2">
           <div className="flex items-center justify-between gap-3">
